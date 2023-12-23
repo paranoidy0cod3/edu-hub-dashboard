@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid - Layout</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"  />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>    
+    <div class="top-layout-wrapper">
+        <aside>
+            <div class="aside-item-wrapper">
+                <div class="brand">
+                    <h1>EDU - HUB</h1>
+                </div>
+                <div class="dashboard-title">
+                    <span><i class="fa-solid fa-table-cells"></i></span>
+                    <span>Dashboard</span> 
+                    <span class="dashboard-icon"><i class="fa-solid fa-angle-up"></i></span>
+                </div>
+                <ul class="dashboard">
+                    <li class="dashboard-links">Overview</li>
+                    <li class="dashboard-links">Courses</li>
+                    <li class="dashboard-links">Students</li>
+                    <li class="dashboard-links">Teachers</li>
+                    <li class="dashboard-links">Exam</li>
+                    <li class="dashboard-links">Result</li>
+                    <li class="dashboard-links">Exam</li>
+                </ul>
+                <div class="dashboard-title">
+                    <!-- <span><i class="fa-solid fa-table-cells"></i></span> -->
+                    <span>Pages </span> 
+                    <span class="dashboard-icon"><i class="fa-solid fa-plus"></i></span>
+                </div>
+                <ul class="dashboard">
+                    <li class="dashboard-links">Hope Page</li>
+                    <li class="dashboard-links">Blog Page</li>
+                    <li class="dashboard-links">News Page</li>
+                    <li class="dashboard-links">About Page</li>
+                    <li class="dashboard-links">Contact Page</li>
+                </ul>
+                <div class="dashboard-title">
+                    <!-- <span><i class="fa-solid fa-table-cells"></i></span> -->
+                    <span>Media </span> 
+                    <span class="dashboard-icon"><i class="fa-solid fa-plus"></i></span>
+                </div>
+                <ul class="dashboard">
+                    <li class="dashboard-links">Photos</li>
+                    <li class="dashboard-links">Videos</li>                
+                </ul>
+            </div>
+        </aside>
+        <main>
+            <nav class="header-nav">
+                <div class="toggle-menu-hidden">
+                    <div class="toggle-menu-wrapper">
+                    <span class="mobile-menu"><i class="fa-solid fa-bars"></i></span>
+                    <span><img src="./logo-star.png" alt=""></span>
+                    </div>
+                </div>
+                <div class="header-menu">
+                    <span class="header-menu-items text-primary btn-regular ">Dashboards</span>
+                    <span class="header-menu-items btn-regular text-dark">Pages</span>
+                    <span class="header-menu-items btn-regular text-dark">Apps</span>
+                    <span class="header-menu-items btn-regular text-dark">Layouts</span>
+                    <span class="header-menu-items btn-regular text-dark">Help</span>
+                </div>
+                <div class="app-menu">
+                    <span class="app-menu-items"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <span class="app-menu-items"><i class="fa-solid fa-comments"></i></span>
+                    <span class="app-menu-items"><i class="fa-solid fa-clipboard-list"></i></span>
+                    <span class="app-menu-items"><i class="fa-solid fa-message"></i></span>
+                    <span class="app-menu-items"><i class="fa-solid fa-table-cells"></i></span>
+                    <span class="app-menu-items"><i class="fa-regular fa-lightbulb"></i></span>
+                    <span class="app-menu-items user-image"><img src="https://source.unsplash.com/random/50x50" alt=""></span>
+                </div>
+            </nav>
+            <div class="tool-bar">
+                <div class="tool-bar-breadcrumb">
+                    <h3>Multipurpose</h3>
+                    <a href="/">Home </a> <span> / </span>
+                    <a href="/dashboard"> Dashboard</a>
+                </div>
+                <div class="buttons-cta">
+                    <button class="btn-regular">Rollover</button>
+                    <button class="btn-primary">Add Target</button>
+                </div>            
+            </div>
+            <section class="analytics">
+                <div class="weekly-routine">
+                    <div class="card">
+                        <div class="card-header-table">
+                            <ul class="weeks-tab ">
+                                <li class="days btn-regular text-dark">Monday</li>
+                                <li class="days btn-regular text-dark">Tuesday</li>
+                                <li class="days btn-regular text-dark">Wednesday</li>
+                                <li class="days btn-regular text-dark">Thursday</li>
+                                <li class="days btn-regular text-dark">Friday</li>
+                            </ul>
+                            <div class="date-today card">22 Dec 2023 - 29 Dec 2023</div>                        
+                        </div>
+                        <div class="card-body-table">
+                            <table>
+                                <tr>
+                                    <th>8:30-09:12 am</th>
+                                    <th><span>Lesson:</span> Math class</th>
+                                    <th><span>Cabinet:</span>45</th>
+                                    <th><button class="btn-regular">Skip</button></th>
+                                </tr>
+                                <tr>
+                                    <td colspan="4" >break 15 min</td>
+                                </tr>
+                                <tr>
+                                    <th>8:30-09:12 am</th>
+                                    <th><span>Lesson:</span> Math class</th>
+                                    <th><span>Cabinet:</span>45</th>
+                                    <th><button class="btn-regular">Skip</button></th>
+                                </tr>
+                                <tr>
+                                    <td colspan="4" >break 15 min</td>
+                                </tr>
+                                <tr>
+                                    <th>8:30-09:12 am</th>
+                                    <th><span>Lesson:</span> Math class</th>
+                                    <th><span>Cabinet:</span>45</th>
+                                    <th><button class="btn-regular">Skip</button></th>
+                                </tr>
+                                <tr>
+                                    <td colspan="4" >break 15 min</td>
+                                </tr>
+                                <tr>
+                                    <th>8:30-09:12 am</th>
+                                    <th><span>Lesson:</span> Math class</th>
+                                    <th><span>Cabinet:</span>45</th>
+                                    <th><button class="btn-regular">Skip</button></th>
+                                </tr>
+                                <tr>
+                                   
+                                </tr>
+                            </table>
+                            <div class="table-bottom-button">
+                                <button class="btn-regular">Add Lesson</button>
+                                <button class="btn-secondary">Call Sick for Today</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="performance">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">
+                                <h3>Academic Performance</h3>
+                                <p>Avg. 72% completed lessons</p>
+                            </div>
+                            <div class="card-nav-buttons">
+                                <button class="btn-regular"><code> < </code></button>
+                                <button class="btn-regular"><code> > </code></button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3>Mathematics</h3>
+                            <progress id="math" value="64" max="100" appearance="none" > 64% </progress>
+                            
+                            <canvas id="myChart" ></canvas>
+                        </div>
+                    </div>
+                </div>                
+            </section>
+            <section class="analytics">
+                <div class="weekly-routine">
+                    <div class="card">
+                        <div class="card-header-table">
+                            <ul class="weeks-tab ">
+                                <li class="days btn-regular text-dark">Monday</li>
+                                <li class="days btn-regular text-dark">Tuesday</li>
+                                <li class="days btn-regular text-dark">Wednesday</li>
+                                <li class="days btn-regular text-dark">Thursday</li>
+                                <li class="days btn-regular text-dark">Friday</li>
+                            </ul>
+                            <div class="date-today card">22 Dec 2023 - 29 Dec 2023</div>                        
+                        </div>
+                        <div class="card-body-table">
+                            <table>
+                                <tr>
+                                    <th>8:30-09:12 am</th>
+                                    <th><span>Lesson:</span> Math class</th>
+                                    <th><span>Cabinet:</span>45</th>
+                                    <th><button class="btn-regular">Skip</button></th>
+                                </tr>
+                                <tr>
+                                    <td colspan="4" >break 15 min</td>
+                                </tr>
+                                <tr>
+                                    <th>8:30-09:12 am</th>
+                                    <th><span>Lesson:</span> Math class</th>
+                                    <th><span>Cabinet:</span>45</th>
+                                    <th><button class="btn-regular">Skip</button></th>
+                                </tr>
+                                <tr>
+                                    <td colspan="4" >break 15 min</td>
+                                </tr>
+                                <tr>
+                                    <th>8:30-09:12 am</th>
+                                    <th><span>Lesson:</span> Math class</th>
+                                    <th><span>Cabinet:</span>45</th>
+                                    <th><button class="btn-regular">Skip</button></th>
+                                </tr>
+                                <tr>
+                                    <td colspan="4" >break 15 min</td>
+                                </tr>
+                                <tr>
+                                    <th>8:30-09:12 am</th>
+                                    <th><span>Lesson:</span> Math class</th>
+                                    <th><span>Cabinet:</span>45</th>
+                                    <th><button class="btn-regular">Skip</button></th>
+                                </tr>
+                                <tr>
+                                   
+                                </tr>
+                            </table>
+                            <div class="table-bottom-button">
+                                <button class="btn-regular">Add Lesson</button>
+                                <button class="btn-secondary">Call Sick for Today</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="performance">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">
+                                <h3>Academic Performance</h3>
+                                <p>Avg. 72% completed lessons</p>
+                            </div>
+                            <div class="card-nav-buttons">
+                                <button class="btn-regular"><code> < </code></button>
+                                <button class="btn-regular"><code> > </code></button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3>Mathematics</h3>
+                            <progress id="math" value="64" max="100" appearance="none" > 64% </progress>
+                            
+                            <canvas id="myChartDoughnut" ></canvas>
+                        </div>
+                    </div>
+                </div>                
+            </section>
+            <footer>copyrights reserved - Paranoidy0cod3 - 2023</footer>
+        </main>        
+    </div>
+
+    
+    <script src="index.js"></script>     
+</body>
+
+</html>
